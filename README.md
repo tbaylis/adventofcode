@@ -1,8 +1,8 @@
-Advent of Code 2020 - Python solutions
-======================================
+Advent of Code - Python solutions
+=================================
 
-Pythonic solutions to 2020's Advent of Code. I'm aiming to keep the dependencies out, and write readable code. To use, pipe your custom input from aoc into the script:
+Pythonic solutions to the Advent of Code. I'm aiming to keep the dependencies out, and write readable code. To use, pipe your custom input from aoc into the script:
 
 ```bash
-curl --cookie session=${TOKEN} https://adventofcode.com/2020/day/1/input | python day01.py
+curl --cookie session=${TOKEN} https://adventofcode.com/2021/day/1/input | python 2021/day01.py
 ```
