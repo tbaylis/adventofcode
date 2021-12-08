@@ -5,19 +5,22 @@ https://adventofcode.com/2021/day/7
 """
 import fileinput
 
+
 def linear_fuel(positions, align_to):
-    return sum(abs(p-align_to) for p in positions)
+    return sum(abs(p - align_to) for p in positions)
+
 
 def exp_fuel(positions, align_to):
     def triang(n):
-        return n * (n+1) // 2
-    return sum(triang(abs(p-align_to)) for p in positions)
+        return n * (n + 1) // 2
+
+    return sum(triang(abs(p - align_to)) for p in positions)
 
 
 if __name__ == "__main__":
     positions = []
     for line in fileinput.input():
-        positions += map(int, line.split(','))
+        positions += map(int, line.split(","))
 
     p_min, p_max = min(positions), max(positions)
 
