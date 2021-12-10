@@ -1,7 +1,7 @@
 """
 Advent of code, day 10 - Syntax Scoring
 
-https://adventofcode.com/2021/day/9
+https://adventofcode.com/2021/day/10
 """
 import fileinput
 
